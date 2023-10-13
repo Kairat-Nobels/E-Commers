@@ -13,6 +13,8 @@ const FeaturedProducts = ({ type }) =>
             id: 1,
             img: "https://png.pngtree.com/thumb_back/fw800/background/20230321/pngtree-a-young-and-beautiful-boxer-puppy-photo-image_1966345.jpg",
             title: "Product 1",
+            img2: "https://www.kino-teatr.ru/acter/album/410143/968742.jpg",
+            isNew: true,
             oldPrice: 100,
             price: 79.99
         },

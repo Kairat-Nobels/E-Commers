@@ -9,8 +9,8 @@ const Card = ({ item }) =>
         <Link className="link" to={`/product/${item.id}`}>
             <div className="card">
                 <div className="image">
-                    {/* {item?.attributes.isNew && <span>New Season</span>}
-                    <img
+                    {item.isNew && <span>New Season</span>}
+                    {/* <img
                         src={
                             process.env.REACT_APP_UPLOAD_URL + item.attributes?.img?.data?.attributes?.url
                         }
@@ -25,8 +25,8 @@ const Card = ({ item }) =>
                         className="secondImg"
                     /> */}
 
-                    <img src={item.img} alt="img" className="mainImg" />
-                    <img src={item.img2} alt="img" className="secondImg" />
+                    <img src={item.img} alt="" className="mainImg" />
+                    <img src={item.img2} alt="" className="secondImg" />
                 </div>
                 <h2>{item?.title}</h2>
                 <div className="prices">
